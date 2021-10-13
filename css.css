@@ -1,0 +1,171 @@
+*{
+	box-sizing: border-box;
+}
+
+body   {
+	margin: 0 ;
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+}
+
+
+
+.header{
+	width: 1170px;
+	width: 100%;
+	height: 900px;
+	background-color:  #ccdef0;
+	background-image: radial-gradient(circle 675px at center, #fff 0%, #ccdef0 100%);
+}
+
+.container{
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top:70px;
+}
+
+.logo{
+	font-weight: 900;
+	font-size: 28px;
+	line-height: 1;
+	color: #000;
+}
+
+.logo span{
+	color: #5abb33;
+}
+
+}
+.nav{
+	width: 600px;
+	height: 100px;
+}
+
+.nav-wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 90px;
+}
+
+.lox{
+	margin: 0;
+	padding: 0;
+	margin-right: 50px;
+}
+
+.lox{
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1;
+	color: #000;
+	text-decoration: none;
+}
+
+.lox:hover{
+	text-decoration: underline;
+}
+
+.header-content{
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.header-desk{
+	width: 500px;
+	padding-top: 90px;
+}
+
+.header-photo{
+
+	width: 670px;
+}
+
+.header-title{
+	color: #000;
+	font-size: 40px;
+	font-weight: 800;
+	line-height: 1.7;
+	margin: 0;
+	margin-bottom: 35px;
+
+}
+
+.header-text{
+	font-size: 20px;
+	line-height: 1.7
+	font-weight:500;
+	margin-bottom: 35px;
+}
+
+.header-btn{
+	display: inline-block;
+	padding-left: 35px;
+	padding-right: 35px;
+	height: 65px;
+	border-radius: 60px;
+	background-color: #fadb50;
+	background-image: linear-gradient(to top, #ffcc00, #fadb60);
+
+	color: #000;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 65px;
+	text-decoration: none;
+
+}
+
+.header-photo{
+
+}
+
+.header-social{
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.header-social-iteam{
+	font-size: 27px;
+	color: #34383c;
+	text-decoration: none;
+	margin-right: 35px;
+}
+
+.footer{
+
+	width: 100%;
+	height:114px;
+	background-color: #232323;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 2;
+
+}
+
+.footer::before {
+	content "";
+	display: table;
+
+}
+
+.footer a{
+      color: #fada5a;
+      text-decoration: none;
+}
+
+.footer a:hover{
+	text-decoration: underline;
+}
